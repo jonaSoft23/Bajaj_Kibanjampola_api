@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "riders",
+  "info": {
+    "name": "Rider"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "first_name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "nin_number": {
+      "type": "string"
+    }
+  }
+}
