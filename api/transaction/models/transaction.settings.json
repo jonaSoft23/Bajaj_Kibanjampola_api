@@ -18,9 +18,9 @@
     "amount": {
       "type": "biginteger"
     },
-    "made_by": {
-      "model": "rider",
-      "via": "transactions"
+    "rider": {
+      "via": "transactions",
+      "model": "rider"
     }
   }
 }

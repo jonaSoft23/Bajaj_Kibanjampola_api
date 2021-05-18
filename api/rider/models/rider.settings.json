@@ -21,14 +21,10 @@
     "nin_number": {
       "type": "string",
       "unique": true,
-      "maxLength": 16,
-      "minLength": 16
+      "maxLength": 14,
+      "minLength": 14
     },
     "initial_deposit": {
-      "type": "biginteger",
-      "default": "0"
-    },
-    "amount_owed": {
       "type": "biginteger",
       "default": "0"
     },
@@ -46,8 +42,11 @@
       "type": "biginteger"
     },
     "transactions": {
-      "via": "made_by",
-      "collection": "transaction"
+      "collection": "transaction",
+      "via": "rider"
+    },
+    "balance": {
+      "type": "biginteger"
     }
   }
 }
